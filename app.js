@@ -125,7 +125,7 @@ var budgetController = (function() {
         },
 
         testing: function() {
-            console.log(budget);
+            // console.log(budget);
         }
     }
 })();
@@ -366,7 +366,7 @@ var controller = (function(budgetCtrl, UICtrl) {
 
     return {
         init: function() {
-            console.log('app started');
+            // console.log('app started');
             UICtrl.displayMonth();
             setupEventListeners();
             UICtrl.displayBudget({
